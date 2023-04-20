@@ -1,3 +1,7 @@
-import "./App.css";
+import { Products } from "./components/Products/Products";
 
-export const App = () => <div></div>;
+export const App = () => (
+  <div>
+    <Products />
+  </div>
+);
