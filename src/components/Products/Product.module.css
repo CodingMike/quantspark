@@ -1,0 +1,6 @@
+.container {
+  display: flex;
+  flex-basis: 66.66%;
+  flex-wrap: wrap;
+  margin: 25px 50px 75px 100px;
+}

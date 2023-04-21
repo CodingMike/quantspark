@@ -1,0 +1,7 @@
+.item {
+  text-transform: capitalize;
+}
+
+.quantity {
+  float: right;
+}

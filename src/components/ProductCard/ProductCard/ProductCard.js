@@ -1,7 +1,7 @@
 import { useBasket } from "../../../hooks/useBasket/useBasket";
+import { Button } from "../../Button/Button";
 import { Heading } from "../../Heading/Heading";
 import { Text } from "../../Text/Text";
-
 import styles from "./ProductCard.module.css";
 
 export const ProductCard = ({ product }) => {
@@ -29,7 +29,7 @@ export const ProductCard = ({ product }) => {
       />
       <Text className={styles.cost} text={`cost: ${product.item_unit_cost}`} />
       <Text className={styles.type} text={`type: ${product.type}`} />
-      <button
+      <Button
         text="Add to basket"
         onClick={() => addItemToBasket({ ...product, quantity: 1 })}
       />
