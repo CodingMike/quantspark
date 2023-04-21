@@ -1,0 +1,21 @@
+.container {
+  flex-basis: 30%;
+}
+
+.type {
+  font-weight: bold;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.weight {
+  margin: 0;
+}
+
+.quantity {
+  margin: 0;
+}
+
+.cost {
+  margin: 0;
+}
