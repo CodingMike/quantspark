@@ -1,6 +1,7 @@
 import { useProductData } from "../../hooks/useProductData/useProductData";
-import { ProductCard } from "../ProductCard/ProductCard";
-import styles from "./Products.module.css";
+import { ProductCard } from "../ProductCard/ProductCard/ProductCard";
+
+import styles from "./Product.module.css";
 
 export const Products = () => {
   const { productData } = useProductData();
